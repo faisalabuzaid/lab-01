@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop  */ 
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* section #two {
+        float:left;
+        margin: 2em;
+    } */
+
+    #a {
+        clear: both;
+    }
+
+    #b {
+        float: left;
+        width:30%;
+        height: 100%;
+    }
+    
+    #c, #d, #e {
+        width: 70%;
+        height: 10%;
+    }
+}
