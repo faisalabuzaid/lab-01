@@ -9,6 +9,13 @@
     --primery--color:#3f3f3f;
 }
 
-section {
+ section {
     border: solid 1px gray;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    
 }
