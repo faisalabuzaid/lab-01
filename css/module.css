@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px) {
+.a {
+    width: 480px;
+    height: 75px;
+    background-color: green;
+}
+
+.b {
+    width: 480px;
+    height: 150px;
+    background-color: greenyellow;
+}
+
+.c, .d {
+    width: 480px;
+    height: 125px;
+    background-color: firebrick;
+}
+
+.e, .f, .g, .h {
+    float: left;
+    width: 240px;
+    height: 250px;
+    background-color: fuchsia;
+}
+
+
+.i {
+    clear: both;
+    width: 480px;
+    height: 80px;
+    background-color: gold;
+}
+}
