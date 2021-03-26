@@ -1,34 +1,48 @@
-@media screen and (max-width: 767px) {
-.a {
-    width: 480px;
-    height: 75px;
-    background-color: green;
-}
-
-.b {
-    width: 480px;
-    height: 150px;
-    background-color: greenyellow;
-}
-
-.c, .d {
-    width: 480px;
-    height: 125px;
-    background-color: firebrick;
-}
-
-.e, .f, .g, .h {
-    float: left;
-    width: 240px;
-    height: 250px;
-    background-color: fuchsia;
+main section:nth-child(1) {
+background-color: darkolivegreen;
 }
 
 
-.i {
-    clear: both;
-    width: 480px;
-    height: 80px;
-    background-color: gold;
+main > section:nth-child(2) > section:nth-child(1) {
+background-color: darkorange;
 }
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(1) {
+background-color: darkred;
+}
+
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+background-color: darkviolet;
+}
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(3) {
+background-color: dimgray;
+}
+
+@media screen and (min-width:960px) {
+    
+
+    main section:nth-child(1) {
+        background-color: lightgreen;
+        }
+        
+        
+        main > section:nth-child(2) > section:nth-child(1) {
+        background-color: lightsalmon;
+        }
+        
+        main > section:nth-child(2) > section:nth-child(2) > section:nth-child(1) {
+        background-color: limegreen;
+        }
+        
+        
+        main > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+        background-color: lightseagreen;
+        }
+        
+        main > section:nth-child(2) > section:nth-child(2) > section:nth-child(3) {
+        background-color: goldenrod;
+        }
+        
 }
