@@ -1,0 +1,48 @@
+main section:nth-child(1) {
+background-color: darkolivegreen;
+}
+
+
+main > section:nth-child(2) > section:nth-child(1) {
+background-color: darkorange;
+}
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(1) {
+background-color: darkred;
+}
+
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+background-color: darkviolet;
+}
+
+main > section:nth-child(2) > section:nth-child(2) > section:nth-child(3) {
+background-color: dimgray;
+}
+
+@media screen and (min-width:960px) {
+    
+
+    main section:nth-child(1) {
+        background-color: lightgreen;
+        }
+        
+        
+        main > section:nth-child(2) > section:nth-child(1) {
+        background-color: lightsalmon;
+        }
+        
+        main > section:nth-child(2) > section:nth-child(2) > section:nth-child(1) {
+        background-color: limegreen;
+        }
+        
+        
+        main > section:nth-child(2) > section:nth-child(2) > section:nth-child(2) {
+        background-color: lightseagreen;
+        }
+        
+        main > section:nth-child(2) > section:nth-child(2) > section:nth-child(3) {
+        background-color: goldenrod;
+        }
+        
+}

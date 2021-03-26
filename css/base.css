@@ -2,28 +2,27 @@
 @import url('module.css');
 @import url('flex.css');
 @import url('grid.css');
+
 * {
     box-sizing: border-box;
 }
 
-:root {
-    --primery--color:#3f3f3f;
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
- .grid-container, section {
+ main, p  {
     display: flex;
-    border: solid 1px gray;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 p {
-    font-size: large;
-    
-}
+    border: solid 1px gray;
 
-.a {
-    width: 100%;
-    height: 75px;
-    background-color: green;
 }
